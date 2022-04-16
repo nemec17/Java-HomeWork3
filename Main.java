@@ -9,6 +9,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        
+        Main.Change();
 
         Box<Orange> or = new Box<>();
         Box<Orange> or1 = new Box<>();
@@ -54,8 +56,7 @@ public class Main {
         System.out.println("Коробка вторая с апельсинами: " + or1.getWeight());
         System.out.println("Коробка третья с яблоками: " + ap.getWeight());
         System.out.println("Коробка четвертая с яблоками: " + ap1.getWeight());
-
-        Main.Change();
+        
     }
 
     public static void Change() {
